@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+<ul class="menu">
+    <li><a href="#" class="menuelem" data-target="task1">task1</a></li>
+    <li><a href="#" class="menuelem" data-target="task2">task2</a></li>
+</ul>
+
+<div id="task1" class="item active">
+    <p> 1. При помощи методов изложеных в arrays.js , переформатировать ITEA_COURSES в массив который содержит длину
+        строк каждого из элементов.
+    <ul id="stringLength"></ul>
+    </p>
+
+    <p> 2. Самостоятельно изучить метод Array.sort. Отфильтровать массив ITEA_COURSES по алфавиту.</p>
+    <ul id="sorted"></ul>
+
+    <p> 3. Реализация функции поиска по массиву ITEA_COURSES.</p>
+    <input type="text" id="searchText">
+    <input type="submit" value="search" id="search">
+    <p id="searchResult"></p>
+</div>
+<div id="task2" class="item">
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Company</th>
+            <th ><a id="balance" href="#">Balance</a></th>
+            <th ><a id="dateReg" href="#">Registered</a></th>
+            <th>Показать адресс</th>
+            <th>Кол-во employers</th>
+            <th>показать сотрудников</th>
+        </tr>
+        </thead>
+        <tbody id="addCompany">
+
+        </tbody>
+
+    </table>
+
+</div>
+
+<div id="task21" class="item">
+    <a href="#" class="back"> Назад </a>
+    <table border="1">
+        <thead>
+        <tr>
+            <th>Имя</th>
+            <th>возраст</th>
+            <th>email</th>
+            <th>пол</th>
+        </tr>
+        </thead>
+        <tbody id="addEmployee">
+
+        </tbody>
+    </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
